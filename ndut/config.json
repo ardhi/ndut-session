@@ -1,0 +1,7 @@
+{
+  "secret": "<a-very-long-min-of-32-character-super-duper-secret>",
+  "cookieName": "sessid",
+  "cookie": {
+    "secure": "auto"
+  }
+}

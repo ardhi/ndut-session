@@ -1,0 +1,28 @@
+{
+  "name": "ndut-session",
+  "version": "0.6.0",
+  "description": "Session for Ndut Framework",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardhi/ndut-session.git"
+  },
+  "keywords": [
+    "ndut",
+    "session",
+    "flash",
+    "fastify"
+  ],
+  "author": "Ardhi Lukianto <ardhi@lukianto.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ardhi/ndut-session/issues"
+  },
+  "homepage": "https://github.com/ardhi/ndut-session#readme",
+  "dependencies": {
+    "@fastify/session": "^6.4.0",
+    "fastify-cookie": "^5.5.0"
+  }
+}
