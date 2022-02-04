@@ -1,0 +1,20 @@
+{
+  "properties": {
+    "id": {
+      "type": "String",
+      "required": true,
+      "id": true
+    },
+    "session": {
+      "type": "json"
+    },
+    "expired": {
+      "type": "Date"
+    }
+  },
+  "feature": {
+    "createdAt": true,
+    "updatedAt": true,
+    "ndutSiteSiteId": true
+  }
+}
