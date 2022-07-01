@@ -1,10 +1,5 @@
 {
   "properties": {
-    "id": {
-      "type": "String",
-      "required": true,
-      "id": true
-    },
     "session": {
       "type": "json"
     },
@@ -12,9 +7,5 @@
       "type": "Date"
     }
   },
-  "feature": {
-    "createdAt": true,
-    "updatedAt": true,
-    "ndutSiteSiteId": true
-  }
+  "feature": ["createdAt", "updatedAt", "ndutSiteSiteId"]
 }
